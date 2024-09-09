@@ -57,6 +57,12 @@ const plugins = [
       },
     },
   },
+  {
+    resolve: `@rsc-labs/medusa-store-analytics`,
+    options: {
+      enableUI: true
+    }
+  },
 ];
 
 const modules = {
